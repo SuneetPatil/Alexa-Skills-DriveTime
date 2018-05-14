@@ -1,0 +1,211 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "drive on time",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "DriveOnTime",
+                    "slots": [
+                        {
+                            "name": "fromLocation",
+                            "type": "location",
+                            "samples": [
+                                "my current location is {fromLocation}",
+                                "{fromLocation}",
+                                "i want to start from  {fromLocation}"
+                            ]
+                        },
+                        {
+                            "name": "toLocation",
+                            "type": "location",
+                            "samples": [
+                                "i want to go to  {toLocation}",
+                                "i like to go to {toLocation}",
+                                "my destination is {toLocation}",
+                                "{toLocation}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "{fromLocation}",
+                        "Please tell me the time required to reach {toLocation} from {fromLocation}",
+                        "i want to go to {toLocation} from {fromLocation}",
+                        "I want to know my Travel time"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "location",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Brigade Road, Bengaluru"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "MG Road, Bangalore"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Manyata Tech Park, Hebbal"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "UB City, Bangalore"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "electronic city, bangalore"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ITPL, whitefield, bangalore"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "whitefield, bangalore"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "btm layout, bangalore"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "kumarswamy layout, bangalore"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "vijaynagar, bangalore"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "banshankri, bangalore"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "banshankri 2nd stage, bangalore"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "banshankri 1st stage, bangalore"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "DriveOnTime",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "fromLocation",
+                            "type": "location",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.506657031325.78809986514"
+                            }
+                        },
+                        {
+                            "name": "toLocation",
+                            "type": "location",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.506657031325.846707753726"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "prompts": [
+            {
+                "id": "Confirm.Intent.506657031325",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Are you sure you want to know travel time from {fromLocation} to {toLocation}"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.506657031325.78809986514",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Say your start location"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "From where you wanna start"
+                    }
+                ]
+            },
+            {
+                "id": "Confirm.Slot.506657031325.78809986514",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Are you sure you want to start from {fromLocation}"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.506657031325.846707753726",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Say your destination"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Where do you like to go"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Please specify your destination"
+                    }
+                ]
+            },
+            {
+                "id": "Confirm.Slot.506657031325.846707753726",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Are you sure you want to go to {toLocation}"
+                    }
+                ]
+            }
+        ]
+    }
+}

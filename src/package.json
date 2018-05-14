@@ -1,0 +1,15 @@
+{
+  "name": "drivetime",
+  "version": "1.0.0",
+  "description": "This is the skill built to specify the time taken by the user to reach the destination in traffic using google maps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Suneet M Patil",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-sdk": "^1.0.25",
+    "request": "^2.85.0"
+  }
+}
