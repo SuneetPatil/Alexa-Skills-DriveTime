@@ -15,6 +15,10 @@ ALEXA devices in the natural language and get the queries related to traffic is 
 
 # YouTube Link: 
   https://www.youtube.com/watch?v=pfMk8B4l-X4&t=9s 
+  
+# To use this code:
+ 1. Update src/index.js line 3 with your APP ID. Its available in Skill Information tab while submitting.
+ 2. Get the API Key from Google(https://developers.google.com/maps/documentation/directions/get-api-key) and update src/index.js line 166 with your directions api key.
 
 # Sample Conversation:
  •	Please provide the start and end points by area, city and state/country to get the accurate response.
