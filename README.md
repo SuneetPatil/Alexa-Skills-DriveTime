@@ -3,7 +3,7 @@
   
   You can find live skill @ https://alexa.amazon.in/spa/index.html#skills/dp/B07CWRYLX7/?ref=skill_dsk_skb_sr_0&qid=1526293036
   
-# Brief demonstrating skill: 
+# Brief Demonstrating Skill: 
   Currently as per one of the Survey, India spends more time in traffic than other populated countries. An individual spends around 5-12hrs on average per week in traffic (source: https://timesofindia.indiatimes.com/photo/46337807.cms ).
 
   If the individual comes to know what’s the current traffic between the locations he is supposed to travel in current traffic, he can plan his drive accordingly by knowing the travel time in traffic. Currently we have Google Map’s which can predict the time in current traffic, this skill is one of the substitute. As skill is driven by voice services, user can communicate with
@@ -16,7 +16,7 @@ ALEXA devices in the natural language and get the queries related to traffic is 
 # YouTube Link: 
   https://www.youtube.com/watch?v=pfMk8B4l-X4&t=9s 
   
-# To use this code:
+# To Use This Code:
  1. Update src/index.js line 3 with your APP ID. Its available in Skill Information tab while submitting.
  2. Get the API Key from Google(https://developers.google.com/maps/documentation/directions/get-api-key) and update src/index.js line 166 with your directions api key.
 
