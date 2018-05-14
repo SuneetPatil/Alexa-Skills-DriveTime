@@ -1,6 +1,8 @@
 # Alexa-Skills-DriveTime:
-  This repository is to demonstrate how to build ALEXA skill to help everyone to know the travel time taken to reach the destination from source in current traffic
-
+  This repository is to demonstrate how to build ALEXA skill to help everyone to know the travel time taken to reach the destination from source in current traffic.
+  
+  You can find live skill @ https://alexa.amazon.in/spa/index.html#skills/dp/B07CWRYLX7/?ref=skill_dsk_skb_sr_0&qid=1526293036
+  
 # Brief demonstrating skill: 
   Currently as per one of the Survey, India spends more time in traffic than other populated countries. An individual spends around 5-12hrs on average per week in traffic (source: https://timesofindia.indiatimes.com/photo/46337807.cms ).
 
