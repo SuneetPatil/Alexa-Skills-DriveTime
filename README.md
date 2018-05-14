@@ -9,34 +9,24 @@ ALEXA devices in the natural language and get the queries related to traffic is 
 
   This will be more beneficial for every individual traveling every day in traffics. For example, the Employees/Business professionals who want to travel to office can check how much time it takes for him to reach office for attending meetings by asking ALEXA rather than opening his smart phones to check it internet. This might be very useful for elderly people as well as disabled who face issue in operating the smart phones to know about travel time before they start their journey.
 
+![alt architecture](https://raw.githubusercontent.com/SuneetPatil/Alexa-Skills-DriveTime/master/architecture/architectureImg.jpg) 
+
 # YouTube Link: 
   https://www.youtube.com/watch?v=pfMk8B4l-X4&t=9s 
 
 # Sample Conversation:
+ •	Please provide the start and end points by area, city and state/country to get the accurate response.
+ 
     User: Alexa, ask drive time to know my Travel time.
     Alexa: {Greetings} + I can help you to plan your drive. Please say your starting point
     User: Vijaynagar Bangalore
     Alexa: Please say your ending point
     User: Whitefield Bangalore
     Alexa: Fastest route, despite heavy traffic than usual between Vijaynagar Bangalore and Whitefield Bangalore via HAL Old Airport Rd which is 27.9 km. But due to traffic you will reach in 1 hour 23 mins
-
-# Example Phrases:
-  • Alexa, ask drive time to know my Travel time
   
-  • Alexa, start drive time to know my Travel time
-  
-  • Alexa, tell drive time I want to know my Travel time 
-
-# Testing instructions:
-  •	Please provide the start and end points by area, city and state/country to get the accurate response.
-  
-# Future Road Map:
-  • Can add destination navigation support from source.
-  
-  • Can store user frequent addresses like home, office, gym etc specific for the user instead of user telling complete address. This helps in providing exact time between the destination.
-  
-  • Currently Skill support for present traffic timings i.e. now. We can add feature for user to check for traffic in the route for any user specified timings.
-  
-  • Currently we are showing best route, distance and time in traffic. We can even show alternative routes for user to select.
-  
-  • Can integrate with user calendar and provide reminders along with suggesting best time to start journey by checking traffic jams with best routes.
+# Future Scope:
+  1. Can add destination navigation support from source.
+  2. Can store user frequent addresses like home, office, gym etc specific for the user instead of user telling complete address. This helps in providing exact time between the destination.
+  3. Currently Skill support for present traffic timings i.e. now. We can add feature for user to check for traffic in the route for any user specified timings.
+ 4. Currently we are showing best route, distance and time in traffic. We can even show alternative routes for user to select.
+ 5. Can integrate with user calendar and provide reminders along with suggesting best time to start journey by checking traffic jams with best routes.
